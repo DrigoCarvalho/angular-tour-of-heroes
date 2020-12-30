@@ -1,7 +1,9 @@
-<h1>{{title}}</h1>
-<nav>
+<div id="cabecalho">
+  <h1 id="titulo" class="center">{{title}}</h1>
+<nav class="center">
   <a routerLink="/dashboard">Dashboard</a>
-  <a routerLink="/heroes">Heroes</a>
+  <a routerLink="/heroes">Heróis</a>
 </nav>
+</div>
+
 <router-outlet></router-outlet>
-<app-messages></app-messages>

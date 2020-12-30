@@ -1,8 +1,8 @@
 /* HeroDetailComponent's private CSS styles */
 label {
     display: inline-block;
-    width: 3em;
-    margin: .5em 0;
+    width: 20em;
+    margin: 0;
     color: #607D8B;
     font-weight: bold;
   }
@@ -13,8 +13,9 @@ label {
   }
   button {
     margin-top: 20px;
+    margin-right: 10px;
     font-family: Arial;
-    background-color: #eee;
+    background-color: rgb(143, 142, 142);
     border: none;
     padding: 5px 10px;
     border-radius: 4px;
@@ -28,3 +29,19 @@ label {
     color: #ccc;
     cursor: auto;
   }
+
+  .center{
+    align-self: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .flex{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #salvar{
+    background-color: rgb(119, 190, 71);
+  }
+  
